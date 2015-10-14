@@ -1,0 +1,32 @@
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Yahtzee\Yahtzee\bin\Debug\Yahtzee.exe.config
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Yahtzee\Yahtzee\bin\Debug\Yahtzee.exe
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Yahtzee\Yahtzee\bin\Debug\Yahtzee.pdb
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Yahtzee\Yahtzee\obj\Debug\Yahtzee.csprojResolveAssemblyReference.cache
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Yahtzee\Yahtzee\obj\Debug\Yahtzee.Yahtzee.resources
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Yahtzee\Yahtzee\obj\Debug\Yahtzee.Properties.Resources.resources
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Yahtzee\Yahtzee\obj\Debug\Yahtzee.TeerlingView.resources
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Yahtzee\Yahtzee\obj\Debug\Yahtzee.csproj.GenerateResource.Cache
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Yahtzee\Yahtzee\obj\Debug\Yahtzee.exe
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Yahtzee\Yahtzee\obj\Debug\Yahtzee.pdb
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Opdrachten\Week 2\Yahtzee\Yahtzee\bin\Debug\Yahtzee.exe.config
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Opdrachten\Week 2\Yahtzee\Yahtzee\obj\Debug\Yahtzee.exe
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Opdrachten\Week 2\Yahtzee\Yahtzee\obj\Debug\Yahtzee.pdb
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Opdrachten\Week 2\Yahtzee\Yahtzee\bin\Debug\Yahtzee.exe
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Opdrachten\Week 2\Yahtzee\Yahtzee\bin\Debug\Yahtzee.pdb
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Opdrachten\Week 2\Yahtzee\Yahtzee\obj\Debug\Yahtzee.csprojResolveAssemblyReference.cache
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Opdrachten\Week 2\Yahtzee\Yahtzee\obj\Debug\Yahtzee.Yahtzee.resources
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Opdrachten\Week 2\Yahtzee\Yahtzee\obj\Debug\Yahtzee.Properties.Resources.resources
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Opdrachten\Week 2\Yahtzee\Yahtzee\obj\Debug\Yahtzee.TeerlingView.resources
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Opdrachten\Week 2\Yahtzee\Yahtzee\obj\Debug\Yahtzee.csproj.GenerateResource.Cache
+E:\Google Drive\Schooljaar 15-16\Software-engineering\Opdrachten\Week 2\Yahtzee\Yahtzee\obj\Debug\Yahtzee.ScoreboardView.resources
+E:\Google Drive\Schooljaar 15-16\Software-engineering\willem-gillis\opdracht-02-technische-analyse\Yahtzee\Yahtzee\bin\Debug\Yahtzee.exe.config
+E:\Google Drive\Schooljaar 15-16\Software-engineering\willem-gillis\opdracht-02-technische-analyse\Yahtzee\Yahtzee\obj\Debug\Yahtzee.exe
+E:\Google Drive\Schooljaar 15-16\Software-engineering\willem-gillis\opdracht-02-technische-analyse\Yahtzee\Yahtzee\obj\Debug\Yahtzee.pdb
+E:\Google Drive\Schooljaar 15-16\Software-engineering\willem-gillis\opdracht-02-technische-analyse\Yahtzee\Yahtzee\bin\Debug\Yahtzee.exe
+E:\Google Drive\Schooljaar 15-16\Software-engineering\willem-gillis\opdracht-02-technische-analyse\Yahtzee\Yahtzee\bin\Debug\Yahtzee.pdb
+E:\Google Drive\Schooljaar 15-16\Software-engineering\willem-gillis\opdracht-02-technische-analyse\Yahtzee\Yahtzee\obj\Debug\Yahtzee.csprojResolveAssemblyReference.cache
+E:\Google Drive\Schooljaar 15-16\Software-engineering\willem-gillis\opdracht-02-technische-analyse\Yahtzee\Yahtzee\obj\Debug\Yahtzee.ScoreboardView.resources
+E:\Google Drive\Schooljaar 15-16\Software-engineering\willem-gillis\opdracht-02-technische-analyse\Yahtzee\Yahtzee\obj\Debug\Yahtzee.Yahtzee.resources
+E:\Google Drive\Schooljaar 15-16\Software-engineering\willem-gillis\opdracht-02-technische-analyse\Yahtzee\Yahtzee\obj\Debug\Yahtzee.Properties.Resources.resources
+E:\Google Drive\Schooljaar 15-16\Software-engineering\willem-gillis\opdracht-02-technische-analyse\Yahtzee\Yahtzee\obj\Debug\Yahtzee.TeerlingView.resources
+E:\Google Drive\Schooljaar 15-16\Software-engineering\willem-gillis\opdracht-02-technische-analyse\Yahtzee\Yahtzee\obj\Debug\Yahtzee.csproj.GenerateResource.Cache
