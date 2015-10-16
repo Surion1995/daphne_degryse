@@ -6,12 +6,11 @@ namespace Yahtzee
 	public class TeerlingController
 	{
 		static int seed = 0;
-		int aantalOgen = 0;
-		public int AantalOgen { get { return aantalOgen; }  }
-										   //member die de view opvangt
-		private TeerlingView view;
+    //member die de view opvangt  
+		private TeerlingView view; 
 		public TeerlingModel model;
 		Yahtzee yahtzeeclass;
+
 		public TeerlingController(int i, Yahtzee y)
 		{
 			view = new TeerlingView(this);
@@ -38,7 +37,6 @@ namespace Yahtzee
 
 				//Het model updaten
 				model.AantalOgen = aantalOgen;
-				Console.WriteLine(aantalOgen + "Presenter spreekt controller aan. Kom dat zien, kom dat zien :)");
 			}
 		}
 

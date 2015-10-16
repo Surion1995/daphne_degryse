@@ -16,68 +16,41 @@ namespace Yahtzee
 
 		private void TeerlingWerpen_Click(object sender, EventArgs e)
 		{
-			
-			if (throwns == 2)
-			{
-				throwns++;
-				controller.Werp();
-				int nieuwAantalOgen = controller.model.AantalOgen;
-				TeerlingLabel.Text = nieuwAantalOgen.ToString();
-				controller.Vastzetten();
-				TeerlingLabel.ForeColor = controller.model.KleurTeerling;
-				if (!controller.model.isBtnVisible)
-				{
-					TeerlingWerpen.Hide();
-				}
-			}
-			else
-			{
-				throwns++;
-				controller.Werp();
-				int nieuwAantalOgen = controller.model.AantalOgen;
-				TeerlingLabel.Text = nieuwAantalOgen.ToString();
-			}
+      SetText();
 			controller.ScoreChanged();
 		}
 
 		public void SetText()
 		{
-			if (throwns == 2)
+      throwns++;
+      controller.Werp();
+      int nieuwAantalOgen = controller.model.AantalOgen;
+      TeerlingLabel.Text = nieuwAantalOgen.ToString();
+
+			if (throwns == 3)
 			{
-				throwns++;
-				controller.Werp();
-				int nieuwAantalOgen = controller.model.AantalOgen;
-				TeerlingLabel.Text = nieuwAantalOgen.ToString();
-				controller.Vastzetten();
-				TeerlingLabel.ForeColor = controller.model.KleurTeerling;
-				if (!controller.model.isBtnVisible)
-				{
-					TeerlingWerpen.Hide();
-				}
-			}
-			else
-			{
-				throwns++;
-				controller.Werp();
-				int nieuwAantalOgen = controller.model.AantalOgen;
-				TeerlingLabel.Text = nieuwAantalOgen.ToString();
+        DisableThrow();
 			}
 		}
 
+    private void DisableThrow()
+    {
+      controller.Vastzetten();
+      TeerlingLabel.ForeColor = controller.model.KleurTeerling;
+      if (!controller.model.isBtnVisible)
+      {
+        TeerlingWerpen.Hide();
+      }
+    }
+
 		private void TeerlingLabel_Click(object sender, EventArgs e)
 		{
-			controller.Vastzetten();
-			TeerlingLabel.ForeColor = controller.model.KleurTeerling;
-			if (!controller.model.isBtnVisible)
-			{
-				TeerlingWerpen.Hide();
-			}
-			
+      DisableThrow();		
 		}
 
 		public void SetIndexOfTeerling()
 		{
-			label1.Text = "Teerling: " + controller.model.IndexOfTeerling;
+			label1.Text = "Teerling: " + (controller.model.IndexOfTeerling + 1 );
 		}
 	}
 }

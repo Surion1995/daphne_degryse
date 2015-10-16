@@ -8,7 +8,6 @@ namespace Yahtzee
 {
 	public class ScoreboardController
 	{
-		//int[] aantalOgenVanTeerlingen = new int[6];
 		private ScoreboardView view;
 
 		public ScoreboardModel model;
@@ -37,7 +36,7 @@ namespace Yahtzee
 				score += model.Numbers[i];
 			}
 			model.Score = score;
-			view.ChangeScore(model.Score);
+			view.ChangeScore();
 
 			if (model.Highscore < model.Score)
 			{

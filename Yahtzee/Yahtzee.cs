@@ -25,6 +25,7 @@ namespace Yahtzee
 
 			}
 
+      Scoreboard.model.Numbers = new int[aantalTeerlingen]; 
 			ScoreboardView scoreboardView = Scoreboard.getView();
 			scoreboardView.Location = new System.Drawing.Point(5, 5);
 			flowLayoutPanel1.Controls.Add(scoreboardView);

@@ -14,13 +14,14 @@ namespace Yahtzee
 	{
 
 		private ScoreboardController controller;
+
 		public ScoreboardView(ScoreboardController c)
 		{
 			InitializeComponent();
 			controller = c;
 		}
 
-		public void ChangeScore(int newScore)
+		public void ChangeScore()
 		{
 			lblScore.Text = "Score: " + controller.model.Score;
 		}
