@@ -10,38 +10,27 @@ namespace Yahtzee
 		private bool btnIsVisible = true;
 		private int indexOfTeerling = 0;
 
-		public int AantalOgen
-		{
-			get
-			{
-				return aantalOgen;
-			}
-			set
-			{
-				aantalOgen = value;
-			}
+		public int AantalOgen { 
+      get {	return aantalOgen; }
+			set {	aantalOgen = value;	}
 		}
 
-		public Color KleurTeerling
-		{
+		public Color KleurTeerling {
 			get { return kleurTeerling; }
 			set { kleurTeerling = value; }
 		}
 
-		public bool Vastgezet
-		{
+		public bool Vastgezet	{
 			get { return vastgezet; }
 			set { vastgezet = value; }
 		}
 
-		public bool isBtnVisible
-		{
+		public bool isBtnVisible	{
 			get { return btnIsVisible; }
 			set { btnIsVisible = value; }
 		}
 
-		public int IndexOfTeerling
-		{
+		public int IndexOfTeerling	{
 			get { return indexOfTeerling; }
 			set { indexOfTeerling = value; }
 		}
