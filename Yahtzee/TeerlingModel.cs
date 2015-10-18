@@ -9,6 +9,7 @@ namespace Yahtzee
 		private bool vastgezet = false;
 		private bool btnIsVisible = true;
 		private int indexOfTeerling = 0;
+    private int aantalWorpen = 0;
 
 		public int AantalOgen { 
       get {	return aantalOgen; }
@@ -34,5 +35,11 @@ namespace Yahtzee
 			get { return indexOfTeerling; }
 			set { indexOfTeerling = value; }
 		}
+
+    public int AantalWorpen {
+      get { return aantalWorpen; }
+      set { aantalWorpen = value; }
+    }  
+
 	}
 }

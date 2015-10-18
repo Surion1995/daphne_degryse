@@ -5,7 +5,6 @@ namespace Yahtzee
 {
 	public partial class TeerlingView : UserControl
 	{
-		private int throwns = 0;
 		private TeerlingController controller;
 
 		public TeerlingView(TeerlingController c)
@@ -22,18 +21,12 @@ namespace Yahtzee
 
 		public void SetText()
 		{
-      throwns++;
       controller.Werp();
       int nieuwAantalOgen = controller.model.AantalOgen;
       TeerlingLabel.Text = nieuwAantalOgen.ToString();
-
-			if (throwns == 3)
-			{
-        DisableThrow();
-			}
 		}
 
-    private void DisableThrow()
+    public void DisableThrow()
     {
       controller.Vastzetten();
       TeerlingLabel.ForeColor = controller.model.KleurTeerling;
