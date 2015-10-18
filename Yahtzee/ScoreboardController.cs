@@ -9,7 +9,6 @@ namespace Yahtzee
 	public class ScoreboardController
 	{
 		private ScoreboardView view;
-
 		public ScoreboardModel model;
 
 		public ScoreboardController()

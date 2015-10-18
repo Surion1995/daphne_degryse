@@ -51,6 +51,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ScoreboardController.cs" />
+    <Compile Include="ScoreboardGlobalPlayerView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ScoreboardGlobalPlayerView.Designer.cs">
+      <DependentUpon>ScoreboardGlobalPlayerView.cs</DependentUpon>
+    </Compile>
     <Compile Include="ScoreboardModel.cs" />
     <Compile Include="ScoreboardView.cs">
       <SubType>UserControl</SubType>
@@ -74,6 +80,17 @@
     <Compile Include="TeerlingView.Designer.cs">
       <DependentUpon>TeerlingView.cs</DependentUpon>
     </Compile>
+    <Compile Include="YahtzeeController.cs" />
+    <Compile Include="YahtzeeModel.cs" />
+    <Compile Include="YahtzeeStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YahtzeeStart.Designer.cs">
+      <DependentUpon>YahtzeeStart.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ScoreboardGlobalPlayerView.resx">
+      <DependentUpon>ScoreboardGlobalPlayerView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ScoreboardView.resx">
       <DependentUpon>ScoreboardView.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +109,9 @@
     </Compile>
     <EmbeddedResource Include="TeerlingView.resx">
       <DependentUpon>TeerlingView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YahtzeeStart.resx">
+      <DependentUpon>YahtzeeStart.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">

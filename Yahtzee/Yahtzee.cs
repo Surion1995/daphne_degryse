@@ -4,52 +4,34 @@ using System.Windows.Forms;
 
 namespace Yahtzee
 {
-	public partial class Yahtzee : Form
+	public partial class YahtzeeView : Form
 	{
-		private List<TeerlingController> teerlingen = new List<TeerlingController>();
-		private const int aantalTeerlingen = 6, aantalWorpen = 0;
-		ScoreboardController Scoreboard = new ScoreboardController();
-		public Yahtzee()
+		private YahtzeeController controller;
+
+    public YahtzeeView(YahtzeeController c)
 		{
 			InitializeComponent();
-
-			for (int i = 0; i < aantalTeerlingen; i++)
-			{
-				//Maak instantie aan van TeerlingController
-				//Voeg teerling toe aan het formulier
-				teerlingen.Add(new TeerlingController(i, this));
-
-				TeerlingView teerlingView = teerlingen[i].getView();
-				teerlingView.Location = new System.Drawing.Point(i * teerlingView.Width, teerlingView.Location.Y);
-				flowLayoutPanel2.Controls.Add(teerlingView);
-
-			}
-
-      Scoreboard.model.Numbers = new int[aantalTeerlingen]; 
-			ScoreboardView scoreboardView = Scoreboard.getView();
-			scoreboardView.Location = new System.Drawing.Point(5, 5);
-			flowLayoutPanel1.Controls.Add(scoreboardView);
+			controller = c;
+      MakeScoreboard();
 		}
-
-		public void ScoreChanged()
-		{
-			for (int i = 0; i < aantalTeerlingen; i++)
-			{
-				Scoreboard.ChangeScore(i, teerlingen[i].model.AantalOgen);
-			}
-			Scoreboard.UpdateScore();
-		}
-
+	
 		private void button1_Click(object sender, EventArgs e)
 		{
-
-			for (int i = 0; i < aantalTeerlingen; i++)
-			{
-				teerlingen[i].getView().SetText();
-				Scoreboard.ChangeScore(i, teerlingen[i].model.AantalOgen);
-			}
-			Scoreboard.UpdateScore();
-
+      controller.ScoreChangedAll();
 		}
+
+    public void MakeDice(TeerlingView teerlingView, int i) //Laat teerlingen verschijnen
+    {
+      teerlingView.Location = new System.Drawing.Point(i * teerlingView.Width, teerlingView.Location.Y);
+      flowLayoutPanel2.Controls.Add(teerlingView);
+    }
+
+    public void MakeScoreboard() //laat scoreboard verschijnen
+    {
+      ScoreboardView scoreView = controller.GetScoreView();
+      scoreView.Location = new System.Drawing.Point(100, 100);
+      flowLayoutPanel1.Controls.Add(scoreView);
+    }
+
 	}
 }
