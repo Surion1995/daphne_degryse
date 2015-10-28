@@ -18,3 +18,6 @@ C:\Users\Daphne\Documents\KDG 2\Software Engineering\Les 2_3\Yatzee_eigen_versie
 C:\Users\Daphne\Documents\KDG 2\Software Engineering\Les 2_3\Yatzee_eigen_versie\Yatzee_eigen_versie\obj\Debug\Yatzee_eigen_versie.csproj.GenerateResource.Cache
 C:\Users\Daphne\Documents\KDG 2\Software Engineering\Les 2_3\Yatzee_eigen_versie\Yatzee_eigen_versie\bin\Debug\Yatzee_eigen_versie.exe
 C:\Users\Daphne\Documents\KDG 2\Software Engineering\Les 2_3\Yatzee_eigen_versie\Yatzee_eigen_versie\bin\Debug\Yatzee_eigen_versie.pdb
+C:\Users\Daphne\Documents\KDG 2\Software Engineering\daphne.degryse\opdracht-02-technische-analyse\Yahtzee\Yatzee_eigen_versie\Yatzee_eigen_versie\bin\Debug\Yatzee_eigen_versie.exe.config
+C:\Users\Daphne\Documents\KDG 2\Software Engineering\daphne.degryse\opdracht-02-technische-analyse\Yahtzee\Yatzee_eigen_versie\Yatzee_eigen_versie\obj\Debug\Yatzee_eigen_versie.exe
+C:\Users\Daphne\Documents\KDG 2\Software Engineering\daphne.degryse\opdracht-02-technische-analyse\Yahtzee\Yatzee_eigen_versie\Yatzee_eigen_versie\obj\Debug\Yatzee_eigen_versie.pdb
